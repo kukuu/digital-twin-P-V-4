@@ -1,7 +1,9 @@
-# Digital Twin V4 - Nut Cracker
+#  Nut Cracker - Digital Twin V4 
 Enabling real-time monitoring, optimisation, and predictive insights, improving efficiency, reducing costs, and enhancing decision-making.
 
 This high-volume throughput system exemplifies real-time asynchronous data processing capability ensuring scalability, reliability, flexibility, observability, ecurity and  addresses challenges like schema evolution and fault tolerance. 
+
+Python is core in this Digital Twin  V4. Used in Data Generation, Processing and Transformation
 
 ## Blue Print:
 
@@ -49,6 +51,96 @@ https://github.com/kukuu/digital-twin-PV4-
 - Cypress
 - REACT
 - Tailwind CSS
+
+
+## Pipeline Architecture
+
+```
+
+
+               DATA INGESTION LAYER
++------------------------------------------------------+
+|   Input Sources                                      |
+| - Synthetic Data                                     |
+| - Excel Files with Meter Consumption Data            |
+| - Real-time Streaming of Meter Readings              |
+| - API Endpoints for External Data Sources(in-scope)  |
++------------------------------------------------------+
+|   Tools                                              |
+| - Python (Pandas, OpenPyXL for spreadsheets)         |
+| - Kafka or RabbitMQ for real-time streaming          |
++------------------------------------------------------+
+                    |
+            DATA TRANSFORMATION LAYER
+                    |                            
++-------------------------------------------------+
+|   Data Cleansing                                |
+| - Handle missing,duplicate or invalid meter     |
+|    readings                                     |
+| - Standardize timestamps and formats            |
++-------------------------------------------------+
+|   Data Transformation                           |
+| - Aggregate daily, weekly, and monthly readings |
+| - Create derived metrics (e.g., avg consumption)|
++-------------------------------------------------+
+|   Tools                                         |
+| - Python (NumPy, Pandas)                        |
+| - PySpark for large-scale processing (Hadoop)   |
++-------------------------------------------------+
+                  |
+            STORAGE LAYER
+                  |
++-------------------------------------------------+
+|   Database                                      |
+| - PostgreSQL or MySQL for structured data       |
+| - Separate tables for sources A, B, and C       |
+| - Indexed columns for timestamp-based queries   |
++-------------------------------------------------+
+|   Data Lake                                     |
+| - S3/Blob Storage for raw and transformed data  |
++-------------------------------------------------+
+                   |
+             ARCHIVAL SYSTEM
+                   |
++-------------------------------------------------+
+|   Archival Process                              |
+| - Move data older than 30 days to archive folder|
+| - Compress files to reduce storage size         |
++-------------------------------------------------+
+|   Tools                                         |
+| - Python (Schedule/Crontab for automation)      |
+| - Cloud Storage (AWS S3, GCP Bucket)            |
++-------------------------------------------------+
+                   |
+         BATCH PROCESSING & NOTIFICATION LAYER
+                   |
++-------------------------------------------------+
+|   Scheduled Jobs                                |
+| - Batch export of data to stakeholders          |
+| - Generate and email reports (PDF/CSV)          |
++-------------------------------------------------+
+|   Notification System                           |
+| - Send reports to email via SMTP/Payment Gateway |
+| - Integrate email notifications with SES/SendGrid|
++-------------------------------------------------+
+|   Tools                                         |
+| - Python (smtplib, pandas for formatting emails)|
+| - Celery + RabbitMQ for batch processing        |
++-------------------------------------------------+
+                   |
+            MONITORING AND LOGGING
+                   |
++-------------------------------------------------+
+|   Logging                                       |
+| - Track ingestion errors, transformation issues |
+| - Log storage/archival successes or failures    |
++-------------------------------------------------+
+|   Monitoring                                    |
+| - Prometheus for pipeline metrics               |
+| - Grafana for real-time dashboards and alerts   |
++-------------------------------------------------+
+
+```
 
 
 ## AI Tools and Technologies:
