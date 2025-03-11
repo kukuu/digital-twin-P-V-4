@@ -3,11 +3,9 @@ Enabling real-time monitoring, optimisation, and predictive insights, improving 
 
 This high-volume throughput system exemplifies real-time asynchronous data processing capability ensuring scalability, reliability, flexibility, observability, ecurity and  addresses challenges like schema evolution and fault tolerance. 
 
-## Blue Prints:
+## Blue Print:
 
-- https://github.com/kukuu/integration/blob/main/data-transformation-energy-meterdigital-twin.md
-
-- https://github.com/kukuu/integration/blob/main/architecture-backend-energy-tasks.md 
+https://github.com/kukuu/digital-twin-PV4-
  
 ## Technologies and Libraries
   
