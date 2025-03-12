@@ -1,7 +1,7 @@
 #  Nut Cracker - Digital Twin V4 
 Enabling real-time monitoring, optimisation, and predictive insights, improving efficiency, reducing costs, and enhancing decision-making.
 
-This high-volume throughput system exemplifies real-time asynchronous data processing capability ensuring scalability, reliability, flexibility, observability, ecurity and  addresses challenges like schema evolution and fault tolerance. 
+This high-volume throughput system exemplifies real-time asynchronous data processing capability ensuring scalability, reliability, flexibility, observability, security and  addresses challenges like schema evolution and fault tolerance. 
 
 Python is core in this Digital Twin  V4. Used in Data Generation, Processing and Transformation
 
