@@ -2,7 +2,7 @@
 
 ### Digital Twin (V4)
 
-The primary objective of **Nut Cracker** is to leverage emerging, cutting-edge technologies, including Artificial Intelligence (AI) and Machine Learning (ML), to streamline the transaction process involving data generation, processing, and transformation. This process focuses on real-time data sourced from distributed and disparate networks and systems. Key functionalities include:
+The primary objective of **Nut Cracker** is to leverage emerging, cutting-edge technologies, including Artificial Intelligence (AI) and Machine Learning (ML), to streamline the transaction process involving data generation, processing, and transformation - ETL. This process focuses on real-time data sourced from distributed and disparate networks and systems. Key functionalities include:
 
 Predictive Analysis: Utilizing AI to identify patterns, trends, and anomalies such as spikes, valleys, and boundaries, enabling predictive maintenance and detecting outliers or tampered data.
 
