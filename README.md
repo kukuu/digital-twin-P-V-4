@@ -8,7 +8,7 @@ Key functionalities include:
 
 **Predictive Analysis**: Utilizing AI to identify patterns, trends, and anomalies such as spikes, valleys, and boundaries, enabling predictive maintenance and detecting outliers or tampered data.
 
-**Visualization and Reporting**: Generating comprehensive visualization reports, graphs, and documentation to review real-time system performance. These tools aid in forecasting and enhancing productivity by providing actionable insights, eal-time monitoring, optimisation, improving efficiency, reducing costs, and enhancing decision-making.
+**Visualization and Reporting**: Generating comprehensive visualization reports, graphs, and documentation to review real-time system performance. These tools aid in forecasting and enhancing productivity by providing actionable insights, real-time monitoring, optimisation, improving efficiency, reducing costs, and enhancing decision-making.
   
 
 Nut Cracker aims to integrate advanced technologies to optimize data workflows, deliver predictive insights, and provide robust visualization tools for performance monitoring and future planning. As a  high-volume throughput system, it exemplifies real-time asynchronous data processing capability ensuring scalability, reliability, flexibility, observability, security and  addresses challenges like schema evolution and fault tolerance.
