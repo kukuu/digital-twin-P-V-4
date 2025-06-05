@@ -14,8 +14,12 @@ Key functionalities include:
 Nut Cracker aims to integrate advanced technologies to optimize data workflows, deliver predictive insights, and provide robust visualization tools for performance monitoring and future planning. As a  high-volume throughput system, it exemplifies real-time asynchronous data processing capability ensuring scalability, reliability, flexibility, observability, security and  addresses challenges like schema evolution and fault tolerance.
 
 Python is core in this innovation.
+
+## Mission:
+
+https://github.com/kukuu/digital-twin-P-V-4/blob/main/nut-cracker-mission.md
  
-## Blue Print:
+## Development:
 
 https://github.com/kukuu/digital-twin-PV4-
  
