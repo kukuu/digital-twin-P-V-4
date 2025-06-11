@@ -30,6 +30,7 @@ https://github.com/kukuu/digital-twin-PV4-
 - Python
 - Node
 - TypeScript
+- REACT
 - Supabase
 - PostGreSQL
 - MongoDB 
@@ -38,7 +39,6 @@ https://github.com/kukuu/digital-twin-PV4-
 - Apache Flink
 - PRISMA ORM
 - Microservices
-- REACT
 - NextJS
 - GraphQL
 - FLASK
