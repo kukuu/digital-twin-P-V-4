@@ -30,7 +30,6 @@ https://github.com/kukuu/digital-twin-PV4-
 - Python
 - Node
 - TypeScript
-- JAVA
 - Supabase
 - PostGreSQL
 - MongoDB 
