@@ -2,7 +2,7 @@
 
 This Digital Twin Energy Smart Meter solution creates a virtual replica of its physical entity, using real-time IoT sensor data and AI-driven analytics to simulate scenarios, predict outcomes, and enable predictive maintenance. The application transforms raw data into actionable insights for optimised operations and decision-making.
 
-The Nut Cracker aims to optimise https://digital-twin-v2-chi.vercel.app/ by building a real-time, AI-powered digital twin system for electric meters by managing high-throughput data pipelines involving data generation, transformation (ETL), analysis, and storage. Its mission is to:
+The Nut Cracker aims to optimise V2 by building a real-time, AI-powered digital twin system for electric meters by managing high-throughput data pipelines involving data generation, transformation (ETL), analysis, and storage. Its mission is to:
 - Streamline real-time data flow.
 - Enable predictive analytics, anomaly detection, and outlier identification using AI/ML.
 - Provide comprehensive dashboards and visualizations for system performance and forecasting.
