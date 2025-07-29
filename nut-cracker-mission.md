@@ -9,7 +9,7 @@ The Nut Cracker aims to optimise V2 by building a real-time, AI-powered digital 
 - Build a scalable and secure architecture for data integration and transformation.
 - Support LLM and RAG-based insights through interactive queries using Python-based FastAPI backend, connected to a React frontend.
 
-## Technologies, Programming Languages and Libraries  
+## Technologies 
 
 - Python, Node.js
 - Databases and Storage
