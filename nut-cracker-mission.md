@@ -41,7 +41,7 @@ Secondly, for integrating LLM with the meter readings database we are exploring 
 
 - Synthetic data generation: Created a class called “EnergyDataGenerator” to provide one row of data at a time which can be used with FastAPI to display data on react frontend.
 
-- Data processing and Archival: Dealing with Null values, outliers, duplicate values as well as storing data in archival folders based on weeks.
+- Data processing and Archival: Dealing with Null values, outliers, duplicate values as well as storing data in archival folders based on weeks (DONE).
 
-- Forecasting – Developing time series forecasting model with SARIMA and LSTM. Planned to integrate this model with FastAPI to be used on frontend.
-API integration – To be used for adding generated data, fetching data from supabase, adding forecasting model
+- Forecasting – Developing time series forecasting model with SARIMA and LSTM. Planned to integrate this model with FastAPI to be used on frontend (DONE).
+API integration – To be used for adding generated data, fetching data from supabase, adding forecasting model (DONE).
