@@ -11,7 +11,8 @@ The Nut Cracker aims to optimise V2 by building a real-time, AI-powered digital 
 
 ## Technologies 
 
-- Python, Node.js
+- Node.js
+- Python 
 - Databases and Storage
 - Supabase (PostgreSQL)
 - Vector DBs (Pinecone/Chroma/FAISS)
