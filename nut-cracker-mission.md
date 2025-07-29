@@ -36,7 +36,7 @@ Since the data is generated randomly even though with some conditions, it is dif
 
 Secondly, for integrating LLM with the meter readings database we are exploring direct approaches as well as efficient approaches. For direct approaches we are planning to add the entire database in vectordb so that model can work with the entire database. On the other hand, we want to experiment with agents who can do LLM based tasks more efficiently on their own without having to add the entire data(updating live) in vectordb which will not be memory efficient. These agents will fetch and process the data by understanding the user’s query. They have this ability to navigate steps to take on their own.
 
-## Summary of current work (COMPLETED)
+## Summary of current work 
 
 - Synthetic data generation: Created a class called “EnergyDataGenerator” to provide one row of data at a time which can be used with FastAPI to display data on react frontend.
 
@@ -44,3 +44,5 @@ Secondly, for integrating LLM with the meter readings database we are exploring 
 
 - Forecasting – Developing time series forecasting model with SARIMA and LSTM. Planned to integrate this model with FastAPI to be used on frontend (DONE).
 API integration – To be used for adding generated data, fetching data from supabase, adding forecasting model (DONE).
+
+(COMPLETED)
