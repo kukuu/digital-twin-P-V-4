@@ -1,6 +1,6 @@
 #  Nut Cracker 
 
-This is evolution of the **SPYDER** -https://www.energytariffscheck.com/
+This is evolution of the **SPYDER** -https://www.energytariffscheck.com/ . Written in **Python**.
  
 ### Digital Twin (V4)
 
