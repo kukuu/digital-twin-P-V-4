@@ -99,7 +99,7 @@ https://github.com/kukuu/digital-twin-PV4-
 | - Create derived metrics (e.g., avg consumption)|
 +-------------------------------------------------+
 |   Tools                                         |
-| - Python (NumPy, Pandas)                        |
+| - Python (NumPy, Pandas)                      |
 | - PySpark for large-scale processing (Hadoop)   |
 +-------------------------------------------------+
                   |
